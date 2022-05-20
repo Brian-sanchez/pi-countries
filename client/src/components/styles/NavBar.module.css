@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+
+.navContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.Creator {
+    color: black; 
+    font-size: 14px; 
+    line-height: 14px; 
+    padding: 6px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    text-decoration: black; 
+    background: transparent;
+    border: 2px solid black; 
+    cursor: pointer;
+}
+
+.Creator:hover {
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.Creator:active {
+    transform: scale(.9);
+}
+
+.Creator1 {
+    color: black; 
+    font-size: 14px; 
+    line-height: 14px; 
+    padding: 6px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    text-decoration: black; 
+    background: transparent;
+    border: 2px solid black; 
+    margin-left: 25px;
+}
+
+.Creator1:hover {
+    color: white;
+    background: black;
+    transition: 0.3s;
+}
+
+.Creator1:active {
+    transform:scale(.9);
+}
+
+.refresh {
+    color: black; 
+    font-size: 14px; 
+    line-height: 14px; 
+    padding: 6px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    text-decoration: black; 
+    background: transparent;
+    border: 2px solid black; 
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.refresh:hover {
+    color: white;
+    background: black;
+    transition: 0.3s;
+}
+
+.creatorAndRefresh {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar {
+    margin-left: 225px;
+    margin-top: -115px;
+    position: absolute;
+}

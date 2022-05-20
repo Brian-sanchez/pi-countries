@@ -1,0 +1,27 @@
+.searchBar {
+    font-size: 15px;
+    width: 200px;
+    height: 42px;
+    padding: 0 10px;
+    border-radius: 25px 0 0 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+}
+
+.buttonSearch {
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    width: 65px;
+    height: 46.95px;
+    background-color: black;
+    color: #fff;
+}
+
+.buttonSearch:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}

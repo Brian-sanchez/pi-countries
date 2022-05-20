@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+
+.ContainerActivity {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.ContainerActivity1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.ContainerActivity2 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px;
+    color: white;
+    width: 500px;
+    background-color: black;
+}
+
+.Creator3 {
+    font-size: 14px; 
+    line-height: 14px; 
+    padding: 6px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+}
+
+.Selector {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.btn1 {
+    color: black; 
+    font-size: 14px; 
+    line-height: 14px; 
+    padding: 6px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    border: 2px solid black; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 13px;
+    background-color: white; 
+}
+
+.btn1:hover {
+    color: white; 
+    font-size: 14px; 
+    line-height: 14px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    cursor: pointer;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.btn1:active {
+    transform:scale(.9);
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.countries {
+    font-family: "Readex Pro", sans-serif;
+    color: white;
+}
+
+.btn {
+    color: white; 
+    font-size: 14px; 
+    line-height: 14px; 
+    padding: 6px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    border: 2px solid white; 
+    margin-bottom: 50px;
+    cursor: pointer;
+    padding: 13px;
+    background-color: black; 
+}
+
+.btn:hover {
+    color: black; 
+    font-size: 14px; 
+    line-height: 14px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+}

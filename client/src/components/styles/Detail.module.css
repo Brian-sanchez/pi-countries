@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+
+.AllContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.DetailContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.DetailContainer1 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 20px ;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 55px;
+}
+
+.ActivityContainer{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    border-radius: 20px ;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+}
+
+.image {
+    border: 2px solid white;
+    width: auto;
+    height: auto;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: "Readex Pro", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    word-spacing: 0px;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.img1 {
+    width: 600px;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    color: white; 
+    font-size: 14px; 
+    line-height: 14px; 
+    padding: 6px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    border: 2px solid white; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 13px;
+    background-color: black; 
+}
+
+.btn:hover {
+    color: black; 
+    font-size: 14px; 
+    line-height: 14px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.btn:active {
+    transform:scale(.9);
+}
+
+.btn1 {
+    color: black; 
+    font-size: 14px; 
+    line-height: 14px; 
+    padding: 6px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    border: 2px solid black; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 13px;
+    background-color: white; 
+}
+
+.btn1:hover {
+    color: white; 
+    font-size: 14px; 
+    line-height: 14px; 
+    border-radius: 11px; 
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400; 
+    cursor: pointer;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.btn1:active {
+    transform:scale(.9);
+}
